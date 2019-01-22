@@ -1,8 +1,0 @@
-{
-    name: "idle",
-    width: 17,
-    height: 32,
-    xoffset: 14,
-    yoffset: 9,
-    frames: [{ time: 1000, x: 0 }]
-}
