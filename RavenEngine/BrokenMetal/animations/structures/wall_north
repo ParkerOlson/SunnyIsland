@@ -1,0 +1,17 @@
+{
+    name: "idle",
+    width: 16,
+    height: 32,
+    xoffset: 15,
+    yoffset: 9,
+    frames: [{ time: 1000, x: 0 }]
+},
+{
+    name: "flashing",
+    width: 16,
+    height: 32,
+    xoffset: 15,
+    yoffset: 9,
+    frames: [{ time: 500, x: 0 },
+             { time: 500, x: 16 }]
+}

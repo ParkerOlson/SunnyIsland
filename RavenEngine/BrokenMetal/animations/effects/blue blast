@@ -1,0 +1,17 @@
+{
+    name: "up",
+    width: 32,
+    height: 32,
+    frames: [{ time: 100, x: 0 },
+             { time: 100, x: 32 },
+             { time: 100, x: 64 }]
+},
+{
+    name: "down",
+    width: 32,
+    height: 32,
+    y: 32,
+    frames: [{ time: 100, x: 0 },
+             { time: 100, x: 32 },
+             { time: 100, x: 64 }]
+},

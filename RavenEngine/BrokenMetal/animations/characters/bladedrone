@@ -1,0 +1,80 @@
+{
+    name: "idle",
+    width: 32,
+    height: 32,
+    frames: [{ time: 250, x: 0 },
+             { time: 250, x: 32 },
+             { time: 250, x: 64 },
+             { time: 250, x: 96 }]
+},
+{
+    name: "walking up",
+    width: 32,
+    height: 32,
+    y: 32,
+    frames: [{ time: 50, xoffset: -1, yoffset: 1 },
+             { time: 50, x: 32, xoffset: -3, yoffset: 2 },
+             { time: 50, x: 64, xoffset: -5, yoffset: 3 },
+             { time: 50, x: 96, xoffset: -7, yoffset: 4 },
+             { time: 50, x: 128, xoffset: -9, yoffset: 5 },
+             { time: 50, x: 160, xoffset: -11, yoffset: 6 },
+             { time: 50, x: 192, xoffset: -13, yoffset: 7 },
+             { time: 50, x: 224, xoffset: -15, yoffset: 8 },]
+},
+{
+    name: "walking down",
+    width: 32,
+    height: 32,
+    y: 64,
+    frames: [
+             { time: 50, xoffset: -1, yoffset: -1 },
+             { time: 50, x: 32, xoffset: -3, yoffset: -2 },
+             { time: 50, x: 64, xoffset: -5, yoffset: -3 },
+             { time: 50, x: 96, xoffset: -7, yoffset: -4 },
+             { time: 50, x: 128, xoffset: -9, yoffset: -5 },
+             { time: 50, x: 160, xoffset: -11, yoffset: -6 },
+             { time: 50, x: 192, xoffset: -13, yoffset: -7 },
+             { time: 50, x: 224, xoffset: -15, yoffset: -8 },]
+},
+{
+    name: "melee up start",
+    width: 32,
+    height: 32,
+    frames: [{ time: 300, x: 0, y: 96 },
+             { time: 200, x: 32, y: 96, xoffset: -2, yoffset: 8 }]
+},
+{
+    name: "melee up end",
+    width: 32,
+    height: 32,
+    frames: [{ time: 500, x: 64, y: 96, xoffset: -5, yoffset: 5 },
+             { time: 200, x: 0, y: 0 }]
+},
+{
+    name: "melee down start",
+    width: 32,
+    height: 32,
+    frames: [{ time: 300, x: 0, y: 96 },
+             { time: 200, x: 32, y: 96, xoffset: -2, yoffset: 1 }]
+},
+{
+    name: "melee down end",
+    width: 32,
+    height: 32,
+    frames: [{ time: 500, x: 64, y: 96, xoffset: -5, yoffset: -5 },
+             { time: 200, x: 0, y: 0 }]
+},
+{
+    name: "die",
+    width: 32,
+    height: 32,
+    frames: [{ time: 100, y: 0, x: 0 },
+             { time: 100, y: 128, x: 0 },
+             { time: 100, y: 128, x: 32 },
+             { time: 100, y: 128, x: 64 },
+             { time: 100, y: 128, x: 96 },
+             { time: 100, y: 160, x: 0 },
+             { time: 100, y: 160, x: 32 },
+             { time: 100, y: 160, x: 64 },
+             { time: 100, y: 160, x: 96 }]
+},

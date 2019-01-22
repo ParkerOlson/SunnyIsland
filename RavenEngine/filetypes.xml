@@ -1,0 +1,36 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="corner_out" type="PLAIN_TEXT" />
+      <mapping pattern="wall_north" type="PLAIN_TEXT" />
+      <mapping pattern="buttons" type="PLAIN_TEXT" />
+      <mapping pattern="armor" type="PLAIN_TEXT" />
+      <mapping pattern="effects" type="PLAIN_TEXT" />
+      <mapping pattern="decal" type="PLAIN_TEXT" />
+      <mapping pattern="missions" type="PLAIN_TEXT" />
+      <mapping pattern="augmentation" type="PLAIN_TEXT" />
+      <mapping pattern="guarddrone" type="PLAIN_TEXT" />
+      <mapping pattern="structure" type="PLAIN_TEXT" />
+      <mapping pattern="text" type="PLAIN_TEXT" />
+      <mapping pattern="corner_north" type="PLAIN_TEXT" />
+      <mapping pattern="disk" type="PLAIN_TEXT" />
+      <mapping pattern="plasma blade red" type="PLAIN_TEXT" />
+      <mapping pattern="connections" type="PLAIN_TEXT" />
+      <mapping pattern="plasma blade" type="PLAIN_TEXT" />
+      <mapping pattern="terrain" type="PLAIN_TEXT" />
+      <mapping pattern="iconbutton" type="PLAIN_TEXT" />
+      <mapping pattern="weapon" type="PLAIN_TEXT" />
+      <mapping pattern="wall" type="PLAIN_TEXT" />
+      <mapping pattern="corner_west" type="PLAIN_TEXT" />
+      <mapping pattern="characters" type="PLAIN_TEXT" />
+      <mapping pattern="corner_in" type="PLAIN_TEXT" />
+      <mapping pattern="blue blast" type="PLAIN_TEXT" />
+      <mapping pattern="new game button" type="PLAIN_TEXT" />
+      <mapping pattern="character" type="PLAIN_TEXT" />
+      <mapping pattern="pawn" type="PLAIN_TEXT" />
+      <mapping ext="anim" type="PLAIN_TEXT" />
+      <mapping ext="rav" type="PLAIN_TEXT" />
+      <mapping ext="rani" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

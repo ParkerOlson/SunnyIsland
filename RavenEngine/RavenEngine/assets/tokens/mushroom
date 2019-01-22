@@ -1,0 +1,9 @@
+anim = anim\Mushroom.anim
+movement_pattern = 0
+movement_number = 2
+use_max = 1
+attack_pattern = 0,1,0, 1,x,1, 0,0,0,
+attack_damage = 2
+attack_impact = 2
+defence = 1
+health = 3

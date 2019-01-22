@@ -1,0 +1,30 @@
+{
+    name: "idle",
+    width: 11,
+    height: 7,
+    x: 4,
+    y: 0,
+    xoffset: -1,
+    yoffset: -1,
+    frames: [{ time: 1000 }]
+},
+{
+    name: "connected",
+    width: 11,
+    height: 7,
+    x: 4,
+    y: 11,
+    xoffset: -1,
+    yoffset: -1,
+    frames: [{ time: 1000 }]
+},
+{
+    name: "connected partial",
+    width: 11,
+    height: 7,
+    x: 4,
+    y: 22,
+    xoffset: -1,
+    yoffset: -1,
+    frames: [{ time: 1000 }]
+}

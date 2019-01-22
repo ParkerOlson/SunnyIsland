@@ -1,0 +1,10 @@
+{
+    name: "palm tree",
+    type: "tree",
+    model: "models/palmtree.ply"
+},
+{
+    name: "bush",
+    type: "bush",
+    model: "models/bush.ply"
+}

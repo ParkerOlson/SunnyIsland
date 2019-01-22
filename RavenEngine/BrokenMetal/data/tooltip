@@ -1,0 +1,135 @@
+{
+    src: "name",
+    title: "class and level",
+    text: "the class and the level of the unit."
+},
+{
+    src: "xp",
+    title: "experience",
+    text: "the current amount of experience needed to level up."
+},
+{
+    src: "damage",
+    title: "damage",
+    text: "how much damage is done per shot, is reduced by resistance."
+},
+{
+    src: "health",
+    title: "health",
+    text: "how much damage a unit can take before it dies."
+},
+{
+    src: "shield",
+    title: "shield",
+    text: "takes damage before health, is restored each floor."
+},
+{
+    src: "movement",
+    title: "movement",
+    text: "how far a unit can move each turn."
+},
+{
+    src: "resistance",
+    title: "resistance",
+    text: "how much damage is reduced per shot, is countered by piercing."
+},
+{
+    src: "weapon",
+    title: "weapon name",
+    text: "The name of the weapon the unit has."
+},
+{
+    src: "attacks",
+    title: "number of attacks",
+    text: "the number of times this unit can attack a turn."
+},
+{
+    src: "range",
+    title: "range",
+    text: "The min and max distance the weapon can shoot."
+},
+{
+    src: "shots",
+    title: "shots",
+    text: "How many times the weapon shoots per attack."
+},
+{
+    src: "piercing",
+    title: "piercing",
+    text: "How much resistance is ignored per shot."
+},
+{
+    src: "end turn",
+    title: "end turn",
+    text: "Ends your turn, letting the enemy go."
+},
+{
+    src: "level up",
+    title: "level up",
+    text: "level up the unit. giving the unit access to new weapons and abilities."
+},
+{
+    src: "abilities",
+    title: "abilities",
+    text: "view the abilities the unit has and can get."
+},
+{
+    src: "deselect",
+    title: "deselect",
+    text: "deselect the unit, letting you pick a different one."
+},
+{
+    src: "skip",
+    title: "finish",
+    text: "declare that you are done using the unit this turn, you won't be able to select them any more."
+},
+{
+    src: "undo",
+    title: "redo turn",
+    text: "undo all the moves you made this turn and redo it."
+},
+{
+    src: "attack",
+    title: "attack",
+    text: "show all possible areas this unit can attack."
+},
+{
+    src: "switch",
+    title: "switch",
+    text: "switch weapons."
+},
+{
+    src: "move",
+    title: "move",
+    text: "show all possible areas this unit can move."
+},
+{
+    src: "hack",
+    title: "hack",
+    text: "hack an enemy unit so you can control them."
+},
+{
+    src: "hook",
+    title: "hook",
+    text: "pull an enemy unit closer."
+},
+{
+    src: "pushblast",
+    title: "pushblast",
+    text: "push all the enemy units away, dealing damage."
+},
+{
+    src: "recall",
+    title: "recall",
+    text: "recalls another unit next to this one."
+},
+{
+    src: "blink",
+    title: "blink",
+    text: "blink to another space."
+},
+{
+    src: "heal",
+    title: "heal",
+    text: "heal an ally."
+},

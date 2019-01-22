@@ -1,0 +1,1077 @@
+{
+    name: "center",
+
+    tags: [ "center" ],
+
+    width: 4,
+    height: 4,
+
+    entrance: [{ side: 0, location: 1, length: 2, name: "a" },
+               { side: 1, location: 1, length: 2, name: "b" },
+               { side: 2, location: 1, length: 2, name: "c" },
+               { side: 3, location: 1, length: 2, name: "d" }],
+
+    variations: true,
+
+    terrain: [
+        [
+            { type: "floor", x: 1, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 2, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 1, y: 2, wall: [ "corner", "out" ], tags: [ "start" ] },
+            { type: "floor", x: 2, y: 2, tags: [ "start" ] },
+
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 3, y: 2 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { type: "floor", x: 1, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 2, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 1, y: 2, wall: [ "corner", "out" ], tags: [ "start" ] },
+            { type: "floor", x: 2, y: 2, tags: [ "start" ] },
+
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { type: "floor", x: 1, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 2, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 1, y: 2, wall: [ "corner", "out" ], tags: [ "start" ] },
+            { type: "floor", x: 2, y: 2, tags: [ "start" ] },
+
+            { x: 0, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 3, y: 2 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { type: "floor", x: 1, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 2, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 1, y: 2, wall: [ "corner", "out" ], tags: [ "start" ] },
+            { type: "floor", x: 2, y: 2, tags: [ "start" ] },
+
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 1 },
+            { x: 3, y: 2 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { type: "floor", x: 1, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 2, y: 1, tags: [ "start" ] },
+            { type: "floor", x: 1, y: 2, wall: [ "corner", "out" ], tags: [ "start" ] },
+            { type: "floor", x: 2, y: 2, tags: [ "start" ] },
+
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+    ]
+},
+{
+    name: "north wall",
+
+    width: 4,
+    height: 3,
+
+    entrance: [{ side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 1, length: 2, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terminal: true,
+
+    variations: true,
+
+    terrain: [
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 0, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 3, y: 1 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+    ]
+},
+{
+    name: "south wall",
+
+    width: 4,
+    height: 3,
+
+    entrance: [{ side: 0, location: 1, length: 2, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terminal: true,
+
+    variations: true,
+
+    terrain: [
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 0, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+        [
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 3, y: 1 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+    ]
+},
+{
+    name: "west wall",
+
+    width: 3,
+    height: 4,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 1, length: 2, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" }],
+
+    terminal: true,
+
+    variations: true,
+
+    terrain: [
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+    ]
+},
+{
+    name: "east wall",
+
+    width: 3,
+    height: 4,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 1, length: 2, name: "d" }],
+
+    terminal: true,
+
+    variations: true,
+
+    terrain: [
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+    ]
+},
+{
+    name: "north east wall",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terminal: true,
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },
+    ]
+},
+{
+    name: "south east wall",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terminal: true,
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "north west wall",
+
+    width: 3,
+    height: 3,
+
+    entrance: [
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" }],
+
+    terminal: true,
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },
+    ]
+},
+{
+    name: "south west wall",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" }],
+
+    terminal: true,
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "north door",
+
+    width: 4,
+    height: 3,
+
+    entrance: [{ side: 0, location: 1, length: 2, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 1, length: 2, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    variations: true,
+
+    terrain: [
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 3, y: 1 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+    ]
+},
+{
+    name: "south door",
+
+    width: 4,
+    height: 3,
+
+    entrance: [{ side: 0, location: 1, length: 2, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 1, length: 2, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+
+    variations: true,
+
+    terrain: [
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 3, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+        [
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 3, y: 0 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 3, y: 1 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 3, y: 2 },
+        ],
+    ]
+},
+{
+    name: "west door",
+
+    width: 3,
+    height: 4,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 1, length: 2, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 1, length: 2, name: "d" },],
+
+
+    variations: true,
+
+    terrain: [
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+    ]
+},
+{
+    name: "east door",
+
+    width: 3,
+    height: 4,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 1, length: 2, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 1, length: 2, name: "d" }],
+
+
+    variations: true,
+
+    terrain: [
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+            { x: 0, y: 3 },
+            { x: 1, y: 3 },
+            { x: 2, y: 3 },
+        ],
+        [
+            { x: 0, y: 0 },
+            { x: 1, y: 0 },
+            { x: 2, y: 0 },
+            { x: 0, y: 1 },
+            { x: 1, y: 1 },
+            { x: 2, y: 1 },
+            { x: 0, y: 2 },
+            { x: 1, y: 2 },
+            { x: 2, y: 2 },
+        ],
+    ]
+},
+{
+    name: "north east wall north door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 2, name: "a" },
+               { side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "north east wall east door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 1, location: 1, length: 2, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "north east wall north and east door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 2, name: "a" },
+               { side: 1, location: 1, length: 2, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "south east wall south door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 2, location: 1, length: 2, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "south east wall east door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 0, length: 2, name: "b" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "south east wall south and east door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 0, length: 2, name: "b" },
+               { side: 2, location: 1, length: 2, name: "c" },
+               { side: 3, location: 0, length: 3, name: "d" }],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "north west wall north door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 1, length: 2, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" }],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },
+    ]
+},
+{
+    name: "north west wall west door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 0, length: 2, name: "d" },],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 }
+    ]
+},
+{
+    name: "north west wall north and west door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 1, length: 2, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 0, length: 3, name: "c" },
+               { side: 3, location: 0, length: 2, name: "d" },],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },
+    ]
+},
+{
+    name: "south west wall south door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 0, length: 2, name: "c" },],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "south west wall west door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 3, location: 1, length: 2, name: "d" },],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "south west wall south and west door",
+
+    width: 3,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 3, name: "a" },
+               { side: 1, location: 0, length: 3, name: "b" },
+               { side: 2, location: 0, length: 2, name: "c" },
+               { side: 3, location: 1, length: 2, name: "d" },],
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+        { x: 2, y: 2 },]
+},
+{
+    name: "north room",
+
+    width: 2,
+    height: 3,
+``
+    entrance: [{ side: 2, location: 0, length: 2, name: "c" }],
+
+    terminal: true,
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 0, y: 2 },
+        { x: -1, y: 2, tags: [ "spawn" ] },
+        { x: 1, y: 2 },
+        { x: 2, y: 2, tags: [ "spawn" ] },
+    ]
+},
+{
+    name: "south room",
+
+    width: 2,
+    height: 3,
+
+    entrance: [{ side: 0, location: 0, length: 2, name: "a" }],
+
+    terminal: true,
+
+    terrain: [
+        { x: -1, y: 0, tags: [ "spawn" ] },
+        { x: 0, y: 0 },
+        { x: 2, y: 0, tags: [ "spawn" ] },
+        { x: 1, y: 0 },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 0, y: 2 },
+        { x: 1, y: 2 },
+    ]
+},
+{
+    name: "west room",
+
+    width: 3,
+    height: 2,
+
+    entrance: [{ side: 1, location: 0, length: 2, name: "b" }],
+
+    terminal: true,
+
+    terrain: [
+        { x: 0, y: -1, tags: [ "spawn" ] },
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 0, y: 2, tags: [ "spawn" ] },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+    ]
+},
+{
+    name: "east room",
+
+    width: 3,
+    height: 2,
+
+    entrance: [{ side: 3, location: 0, length: 2, name: "d" }],
+
+    terminal: true,
+
+    terrain: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 2, y: 0 },
+        { x: 2, y: -1, tags: [ "spawn" ] },
+        { x: 0, y: 1 },
+        { x: 1, y: 1 },
+        { x: 2, y: 1 },
+        { x: 2, y: 2, tags: [ "spawn" ] },
+    ]
+},

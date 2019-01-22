@@ -1,0 +1,51 @@
+{
+    name: "idle",
+    width: 32,
+    height: 32,
+    frames: [{ time: 100, x: 64, y: 0 }]
+},
+{
+    name: "attack down start",
+    width: 32,
+    height: 32,
+    frames: [{ time: 200 }]
+},
+{
+    name: "attack down shot",
+    width: 32,
+    height: 32,
+    frames: [{ time: 100, y: 32 },
+             { time: 100, y: 64 },
+             { time: 300 }]
+},
+{
+    name: "attack down end",
+    width: 32,
+    height: 32,
+    frames: [{ time: 100, y: 32 },
+             { time: 100, y: 64 },
+             { time: 300 }]
+},
+{
+    name: "attack up start",
+    width: 32,
+    height: 32,
+    frames: [{ time: 200, x: 32 }]
+},
+{
+    name: "attack up shot",
+    width: 32,
+    height: 32,
+    frames: [{ time: 100, x: 32, y: 32 },
+             { time: 100, x: 32, y: 64 },
+             { time: 300, x: 32 }]
+},
+{
+    name: "attack up end",
+    width: 32,
+    height: 32,
+    frames: [{ time: 100, x: 32, y: 32 },
+             { time: 100, x: 32, y: 64 },
+             { time: 300, x: 32 }]
+},
+

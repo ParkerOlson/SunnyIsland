@@ -1,0 +1,43 @@
+{
+    name: "tank",
+    desc: "while slow-moving, this unit can take lots of damage and keep others safe.\n\nhealth +5\nshield +5\nresistance +2\nmovement -1",
+
+    bonus: {
+        hp: 5,
+        shield: 5,
+        resistance: 2,
+        movement: -1,
+    }
+},
+{
+    name: "hacker",
+    desc: "hack enemies, allowing you to move and attack with them.\n\ngain ability: hack"
+
+    bonus: {
+        ability: "Hack",
+    }
+},
+{
+    name: "blinker",
+    desc: "learn the ability to teleport, letting this unit quickly travel the map.\n\ngain ability: blink"
+
+    bonus: {
+        ability: "Blink",
+    }
+},
+{
+    name: "medic",
+    desc: "heals the team, keeping them alive and away from the brink of death.\n\ngain ability: heal"
+
+    bonus: {
+        ability: "Heal",
+    }
+},
+{
+    name: "gunner",
+    desc: "shoots things, a lot.\n\ngain ability: power attack"
+
+    bonus: {
+        ability: "Power Shot",
+    }
+}

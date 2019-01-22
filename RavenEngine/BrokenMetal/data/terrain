@@ -1,0 +1,18 @@
+{
+    name: "floor",
+    sprite: "sprites/tile_a.png",
+
+    weight: 50,
+},
+{
+    name: "cracked floor 1",
+    sprite: "sprites/tile_b.png",
+},
+{
+    name: "cracked floor 2",
+    sprite: "sprites/tile_c.png",
+},
+{
+    name: "hole floor",
+    sprite: "sprites/tile_d.png",
+}

@@ -1,0 +1,6 @@
+width = 32
+height = 32
+img = img\Tile.png
+idle = 0
+move_hover = 0
+move = 0
